@@ -1,12 +1,15 @@
 package tablaSocios;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class main {
     public static void main(String[] args) {
-        List<tablaSocios> socios = new ArrayList<>();
-        socios.add(new Socio("Juan", 1));
-        socios.add(new Socio("María", 2));
-        socios.add(new Socio("Pedro", 3));
-        socios.add(new Socio("Ana", 4));
+        ArrayList<Socio> socios = new ArrayList<>();
+        socios.add(new Socio("Eriòs", 1324));
+        socios.add(new Socio("Angels", 2938));
+        socios.add(new Socio("Javi", 3345));
+        socios.add(new Socio("Lara", 12434));
 
         // Ordenar la lista de socios por nombre
         Collections.sort(socios);
