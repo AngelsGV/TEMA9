@@ -15,7 +15,7 @@ class Socio implements Comparable { //Utilizo la interfaz que pide el problema
         return nombre;
     }
 
-    // Para ordenar por nombre
+    // Para ordenar por nombre -->pag 292
     @Override
     public int compareTo(Object ob) {
         Socio otroSocio = (Socio) ob;
